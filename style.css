@@ -1,18 +1,67 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
   padding: 20px;
-  background-color: #f5f5f5;
+  background: linear-gradient(to right, #d7e1ec, #f0f4f8);
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 40px;
 }
 
 .produk-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
   flex-wrap: wrap;
-  gap: 20px;
 }
 
 .produk {
-  width: 48%;
-  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.produk:hover {
+  transform: translateY(-5px);
+}
+
+.produk img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.produk h2 {
+  margin: 10px 0;
+  color: #2c3e50;
+}
+
+.harga {
+  font-weight: bold;
+  color: #27ae60;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #2980b9;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1f6391;
+}
 }
 
