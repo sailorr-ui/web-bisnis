@@ -165,6 +165,14 @@ ul li {
     width: 100%;
   max-width: 400px;
   }
+.detail-page .container, 
+.detail-page .container p, 
+.detail-page .container li, 
+.detail-page .container h2, 
+.detail-page .container h3 {
+  color: black !important;
+}
+
 }
 
 
