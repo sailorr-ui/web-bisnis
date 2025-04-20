@@ -121,6 +121,17 @@ ul li {
     gap: 20px;
     padding: 10px;
   }
+ .product-detail {
+  padding: 16px;
+  max-width: 90%;
+  margin: auto;
+  text-align: center;
+}
+  .product-detail img {
+  width: 100%;
+  height: auto;
+}
+  
   .product-card {
     width: 100%;
   max-width: 400px;
