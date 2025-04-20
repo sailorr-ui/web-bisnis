@@ -32,6 +32,28 @@ h1 {
   flex-direction: column;
   justify-content: flex-start;
 }
+.deskripsi {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #f0f8ff;
+  color: #333;
+  margin-bottom: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.deskripsi h2 {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.deskripsi p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
 
 .produk:hover {
   transform: translateY(-5px);
