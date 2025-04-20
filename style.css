@@ -147,14 +147,15 @@ ul li {
   .produk-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 16px;
-    padding: 10px;
+    gap: 20px;
+    padding: 16px;
   }
 
   .produk {
     width: 100%;
     max-width: none;
     margin: 0;
+    padding: 16px;
   }
 
 
