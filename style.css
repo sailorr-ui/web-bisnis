@@ -157,7 +157,16 @@ ul li {
     margin: 0;
     padding: 16px;
   }
+@media (max-width: 500px) {
+  .produk-container {
+    grid-template-columns: 1fr;
+    padding: 12px;
+    gap: 20px;
+  }
 
+  .produk {
+    padding: 16px;
+  }
 
   .product-detail {
     padding: 16px;
