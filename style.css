@@ -2,12 +2,13 @@ body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 20px;
-  background: linear-gradient(to bottom right, #ebddd1, #d6c7b8);
-  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #eae0d5, #d6cfc7);
   color: #2e2e2e;
   background-attachment: fixed;
 }
 .cozy-section {
+  background-color: rgba(255, 255, 255, 0.7); 
+  backdrop-filter: blur(8px);
   border-radius: 16px;
   padding: 30px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
