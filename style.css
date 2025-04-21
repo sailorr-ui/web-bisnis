@@ -2,13 +2,21 @@ body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 20px;
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-  color: #333;
+  background: linear-gradient(to bottom right, #fdf6f0, #e8ded1);
+  font-family: 'Segoe UI', sans-serif;
+  color: #2e2e2e;
+  background-attachment: fixed;
 }
-
+.cozy-section {
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(6px);
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
 h1 {
   text-align: center;
-  color: #2c3e50;
+  color: #5a4e4b;
   margin-bottom: 40px;
 }
 
@@ -22,7 +30,7 @@ h1 {
 .produk {
   background-color: #ffffff;
   border-radius: 12px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
   padding: 20px;
   width: 300px;
   transition: transform 0.3s ease;
@@ -31,6 +39,7 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  color: #4e4e4e;
 }
 .deskripsi {
   text-align: center;
@@ -89,7 +98,7 @@ h1 {
 .btn {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #2980b9;
+  background-color: #a68a7f;
   color: white;
   border-radius: 6px;
   text-decoration: none;
@@ -97,7 +106,7 @@ h1 {
 }
 
 .btn:hover {
-  background-color: #1f6391;
+  background-color: #8e7469;
 }
 .detail-page {
   background: linear-gradient(to bottom right, #f0f0f0, #e0f7fa);
@@ -157,6 +166,7 @@ ul li {
     margin: 0;
     padding: 16px;
   }
+    }
 @media (max-width: 500px) {
   .produk-container {
     display: grid;
