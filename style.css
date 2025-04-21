@@ -167,11 +167,14 @@ ul li {
   }
 
   .produk {
-    width: 100%;
-    max-width: 165px;
-    padding: 14px;
-    box-sizing: border-box;
-  }
+  aspect-ratio: 1 / 1;
+  max-width: 165px;
+  padding: 14px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
   .product-detail {
     padding: 16px;
