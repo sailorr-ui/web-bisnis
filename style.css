@@ -159,16 +159,18 @@ ul li {
   }
 @media (max-width: 500px) {
   .produk-container {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 12px;
-    gap: 20px;
+    gap: 24px 16px;
     justify-items: center;
   }
 
   .produk {
     width: 100%;
-    max-width: 160px;
-    padding: 16px;
+    max-width: 165px;
+    padding: 14px;
+    box-sizing: border-box;
   }
 
   .product-detail {
