@@ -111,8 +111,8 @@ h1 {
   background-color: #8e7469;
 }
 .detail-page {
-  background: linear-gradient(to bottom right, #f0f0f0, #e0f7fa);
-  color: #333;
+  background: linear-gradient(to bottom right, #eae0d5, #d6cfc7);
+  color: #2e2e2e;
   font-family: 'Segoe UI', sans-serif;
   padding: 40px 20px;
 }
