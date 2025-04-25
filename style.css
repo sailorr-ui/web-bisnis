@@ -229,6 +229,9 @@ ul li {
   .detail-page .container h3 {
     color: black !important;
   }
+  a {
+  text-decoration: none;
+}
 }
 
 
